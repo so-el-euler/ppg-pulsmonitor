@@ -3,7 +3,7 @@
 Ein selbst gebauter optischer Pulsmonitor: Eine grüne LED durchleuchtet den Finger, eine Fotodiode misst die Lichtschwankungen durch den Herzschlag. Ein Verstärker aus Operationsverstärkern bereitet das Signal auf, ein TI-Mikrocontroller digitalisiert es, und MATLAB und Python berechnen daraus Herzfrequenz und Herzratenvariabilität (HRV). Ein KI-Agent fasst jede Messung in einem verständlichen Bericht zusammen.
 
 > **Status:** in Arbeit (Woche 0: Setup)
-> Lern- und Demonstrationsaufbau, **kein Medizinprodukt**. Die Messwerte sind nicht für Diagnosen gedacht.
+
 
 ## Messkette
 
