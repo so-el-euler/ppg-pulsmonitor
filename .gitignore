@@ -8,6 +8,10 @@ __pycache__/
 # --- Geheimnisse (API-Keys) ---
 .env
 
+# --- Claude Code: persönliche Einstellungen ---
+.claude/settings.local.json
+CLAUDE.local.md
+
 # --- MATLAB ---
 *.asv
 *.autosave
