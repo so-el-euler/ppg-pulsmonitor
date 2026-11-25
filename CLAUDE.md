@@ -5,7 +5,7 @@ Lernprojekt neben dem Medizintechnik-Studium: optischer Pulsmonitor mit selbst g
 ## Wo was liegt
 
 - **Projektplan (Claude Docs):** https://claude.ai/artifact/9rxDXn2eCAvZzgFYuFwZGJ – Wochen-Checklisten Woche 0–4, Materialliste, Risiken. Nach erledigten Aufgaben dort abhaken.
-- **GitHub:** https://github.com/so-el-euler/ppg-pulsmonitor – Milestones Week 1–4 (fällig 29.11., 6.12., 13.12., 20.12.2026), pro Woche ein Issue (#1–#4) mit Checkbox-Aufgaben. `gh` ist nicht installiert; lesen über die öffentliche REST-API, ändern macht die Nutzerin/der Nutzer selbst auf github.com.
+- **GitHub:** https://github.com/so-el-euler/ppg-pulsmonitor – Milestones Week 1–4 (fällig 29.11., 6.12., 13.12., 20.12.2026), pro Woche ein Issue (#1–#4) mit Checkbox-Aufgaben. `gh` (GitHub CLI) ist installiert und als so-el-euler angemeldet; nach `winget`-Installation ggf. PATH in der Shell neu laden.
 - **Python:** `.venv` (Python 3.14), `pip install -r requirements.txt`, Tests mit `.venv\Scripts\python.exe -m pytest`.
 - **Gemeinsame Parameter:** `config.json` (100 Hz, Bandpass 0,5–4 Hz, Peak-Abstand 0,33 s) – MATLAB und Python lesen dieselben Werte.
 
