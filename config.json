@@ -1,0 +1,14 @@
+{
+  "sampling_rate_hz": 100,
+  "bandpass": {
+    "low_hz": 0.5,
+    "high_hz": 4.0,
+    "order": 2
+  },
+  "peaks": {
+    "min_distance_s": 0.33
+  },
+  "serial": {
+    "baudrate": 115200
+  }
+}

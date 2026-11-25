@@ -1,0 +1,32 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Geheimnisse (API-Keys) ---
+.env
+
+# --- MATLAB ---
+*.asv
+*.autosave
+*.mex*
+slprj/
+
+# --- Code Composer Studio / Firmware-Build ---
+firmware/**/Debug/
+firmware/**/Release/
+firmware/**/.settings/
+firmware/**/.launches/
+*.out
+*.map
+*.obj
+*.o
+*.d
+
+# --- System / Editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
